@@ -15,3 +15,8 @@ function deleteFromObjectByKey(object, key){
   delete ne[key];
   return ne
 }
+
+function destructivelyDeleteFromObjectByKey(object, key){
+  delete object[key]
+  return object
+}
